@@ -16,7 +16,7 @@ SuFileOps.py
 	--Provides useful operations on files: copy path or URI to clipboard, MD5 digest, Unix strings. Easily extendable, requires root.
 
 Napping.py
-	--
+	--See source for more info.
 	  
 Righthru.py
 	--Turns off phone ringer and bluetooth, then monitors incoming calls for a user-selected privileged caller. Privileged calls turn on the ringer and bluetooth while others are dropped silently. Imported by Napping.py
