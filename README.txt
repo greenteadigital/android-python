@@ -17,15 +17,7 @@ SuFileOps.py
 	  Easily extendable, requires root.
 
 Napping.py
-	--This I wrote to scratch a very specific itch. When I was living a couple hours
-      away from my daughter and her mama, I would usually nap @ 6pm for a couple
-      hours. I would text them before I went to sleep and let them know when I was
-      laying down, and whether they should call me, or I would call them for my
-      daughter's bedtime story. This script sends a variable but generic text with
-      the time I went to sleep, turns off the ringer/bluetooth, and monitors incoming
-      calls. If they call, the phone will ring and wake me up, otherwise it stays
-      silent. Also turns on bluetooth with ringer. Optionally launchs the alarm clock if
-      I select the option to set a wake up alarm.
+	--
 	  
 Righthru.py
 	--Turns off phone ringer and bluetooth, then monitors incoming calls for a user-selected privileged caller.
