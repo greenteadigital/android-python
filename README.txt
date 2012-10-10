@@ -13,19 +13,16 @@ Podcat.py
 	--An application for download/update of some of my favorite NPR podcasts.
 	
 SuFileOps.py
-	--Provides useful operations on files: copy path or URI to clipboard, MD5 digest, Unix strings.
-	  Easily extendable, requires root.
+	--Provides useful operations on files: copy path or URI to clipboard, MD5 digest, Unix strings. Easily extendable, requires root.
 
 Napping.py
 	--
 	  
 Righthru.py
-	--Turns off phone ringer and bluetooth, then monitors incoming calls for a user-selected privileged caller.
-	  Privileged calls turn on the ringer and bluetooth while others are dropped silently. Imported by Napping.py
+	--Turns off phone ringer and bluetooth, then monitors incoming calls for a user-selected privileged caller. Privileged calls turn on the ringer and bluetooth while others are dropped silently. Imported by Napping.py
 	
 NetCap.py
-	--A simple packet capture script/tcpdump UI which monitors the first listed active interface (wifi/3g/4g).
-	  Capture files are pcap format for use in Wireshark. Requires root and tcpdump for ARM.
+	--A simple packet capture script/tcpdump UI which monitors the first listed active interface (wifi/3g/4g). Capture files are pcap format for use in Wireshark. Requires root and tcpdump for ARM.
 	
 ./vidcap
 	--See ./vidcap/README.txt
