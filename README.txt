@@ -1,0 +1,39 @@
+Python Applications for Android
+-------------------------------
+A collection of my Python scripts for doing various useful things in Android. These were all written to scratch a personal itch. Except vidcap, which outputs to the terminal, all scripts launch a GUI. All require the SL4A RPC server and the Python interpreter for Android.
+
+Required Installers
+-------------------
+SL4A - https://android-scripting.googlecode.com/files/sl4a_r6.apk
+Python for Android - https://python-for-android.googlecode.com/files/PythonForAndroid_r5.apk
+
+Contents
+--------
+Podcat.py
+	--An application for download/update of some of my favorite NPR podcasts.
+	
+SuFileOps.py
+	--Provides useful operations on files: copy path or URI to clipboard, MD5 digest, Unix strings.
+	  Easily extendable, requires root.
+
+Napping.py
+	--This I wrote to scratch a very specific itch. When I was living a couple hours
+      away from my daughter and her mama, I would usually nap @ 6pm for a couple
+      hours. I would text them before I went to sleep and let them know when I was
+      laying down, and whether they should call me, or I would call them for my
+      daughter's bedtime story. This script sends a variable but generic text with
+      the time I went to sleep, turns off the ringer/bluetooth, and monitors incoming
+      calls. If they call, the phone will ring and wake me up, otherwise it stays
+      silent. Also turns on bluetooth with ringer. Optionally launchs the alarm clock if
+      I select the option to set a wake up alarm.
+	  
+Righthru.py
+	--Turns off phone ringer and bluetooth, then monitors incoming calls for a user-selected privileged caller.
+	  Privileged calls turn on the ringer and bluetooth while others are dropped silently. Imported by Napping.py
+	
+NetCap.py
+	--A simple packet capture script/tcpdump UI which monitors the first listed active interface (wifi/3g/4g).
+	  Capture files are pcap format for use in Wireshark. Requires root and tcpdump for ARM.
+	
+./vidcap
+	--See ./vidcap/README.txt
